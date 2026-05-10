@@ -73,7 +73,7 @@
 
 ### Quiz Results with Explanations
 
-![Quiz Results](screenshots/Quiz-Result.png)
+![Quiz Results](screenshots/Quiz_Result.png)
 
 ### Flashcard Study Mode
 
@@ -93,7 +93,7 @@
 
 ### Admin Dashboard
 
-![Admin](screenshots/Admin-Dashboard.png)
+![Admin](screenshots/Admin_Dashboard.png)
 
 ## 🗂 Project Structure
 
