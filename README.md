@@ -61,7 +61,7 @@
 
 ### Student Dashboard
 
-![Dashboard](frontend/public/screenshots/Dashboard.png)
+![Dashboard](screenshots/Dashboard.png)
 
 ### AI Chat — Ask questions from your PDF
 
@@ -73,7 +73,7 @@
 
 ### Quiz Results with Explanations
 
-![Quiz Results](screenshots/Quiz-Results.png)
+![Quiz Results](screenshots/Quiz-Result.png)
 
 ### Flashcard Study Mode
 
