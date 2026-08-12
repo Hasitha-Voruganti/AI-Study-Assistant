@@ -1,10 +1,10 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL:
-    process.env.REACT_APP_API_URL ||
-    "https://ai-study-assistant-j0de.onrender.com/api",
-  headers: { "Content-Type": "application/json" },
+  baseURL: "https://ai-study-assistant-j0de.onrender.com/api",
+  headers: {
+    "Content-Type": "application/json",
+  },
 });
 
 api.interceptors.response.use(
