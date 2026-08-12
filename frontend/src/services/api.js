@@ -1,19 +1,21 @@
-import axios from 'axios';
+import axios from "axios";
 
 const api = axios.create({
-  baseURL: '/api',
-  headers: { 'Content-Type': 'application/json' }
+  baseURL:
+    process.env.REACT_APP_API_URL ||
+    "https://ai-study-assistant-j0de.onrender.com/api",
+  headers: { "Content-Type": "application/json" },
 });
 
 api.interceptors.response.use(
-  res => res,
-  err => {
+  (res) => res,
+  (err) => {
     if (err.response?.status === 401) {
-      localStorage.removeItem('token');
-      window.location.href = '/login';
+      localStorage.removeItem("token");
+      window.location.href = "/login";
     }
     return Promise.reject(err);
-  }
+  },
 );
 
 export default api;
