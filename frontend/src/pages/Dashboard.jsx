@@ -70,7 +70,8 @@ export default function Dashboard() {
               {greeting}, {user?.name?.split(" ")[0]} 👋
             </h1>
             <p className="text-indigo-200 text-sm mt-1">
-              Here's your study progress overview
+              Learn smarter with AI — ask questions, practice quizzes, and
+              master your study material.
             </p>
           </div>
           <Link
